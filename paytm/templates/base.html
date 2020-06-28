@@ -1,0 +1,110 @@
+{% load staticfiles %}
+<html>
+<head>
+<link href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet" />
+<link href="{% static 'bootstrap-3.3.7-dist/css/bootstrap-theme.min.css' %}" type="text/css" rel="stylesheet" />
+<link href="{% static 'style2.css' %}" type="text/css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+<div class="container-fluid">
+<div class="row" id="header">
+<div class="col-md-10 col-md-offset-1">
+<i class="glyphicon glyphicon-map-marker product"></i> Ajit Road - Bathinda
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="glyphicon glyphicon-file product"></i>kidscastle@gmail.com
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="glyphicon glyphicon-earphone product"></i> +91 9876543210
+</div>
+</div>
+
+
+<div class="row text-center">
+<div class="col-md-5">
+<h1 style=" font-family:Lucida Calligraphy"><span style="color:#E8373D;">K</span><span style="color:#035392;">I</span><span style="color:#e4a40f;">D</span><span style="color:#58a697;">S</span> CASTLE</h1>
+</div>
+
+<div class="col-md-7 text-align-center" id="nav">
+<nav class="navbar-inverse">
+<ul class="nav navbar-nav">
+<li><a href="/kindergarten/">Home</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/gallery/">Gallery</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/programs/">Programs</a></li>
+<li><a href="/facilities/">Facilities</a></li>
+<li><a href="/registration/">Registration</a></li>
+
+</div>
+</div>
+
+
+{% block content %}
+
+
+{% endblock %}
+
+
+
+
+
+
+<div class="row text-center" id="footer">
+<div class="col-md-12">
+<div class="col-md-4" id="a1">
+<h1><p class="btn btn-primary" style="font-size:30px;font-family:Elephant">
+<span style="color:#E8373D;">K</span><span style="color:#035392;">I</span>
+<span style="color:#e4a40f;">D</span><span style="color:#58a697;">S</span></p> CASTLE</h1>
+<br><p style="font-size:23px;font-family:Elephant"> Subscribe to our newslatter</p>
+<br>
+<form action="/insertsubscribe" method="post">
+{% csrf_token %}
+<div class="col-md-8"><input type="email" placeholder="your email here" name="email" class="form-control"></div>
+<div class="col-md-4"><button type="submit" class="btn btn-danger ">SUBSCRIBE</button></div>
+</form>
+</div>
+<div class="col-md-4">
+<h2>Contact Us</h2>
+<i class="glyphicon glyphicon-earphone"></i> +91- 9876543210<br>
+<br>
+<i class="glyphicon glyphicon-envelope"></i> <a href="kidscastl1@gmail.com"><span style="color:#e4a40f;">kids castel@gmail.com</span></a><br>
+<br>
+<i class="glyphicon glyphicon-map-marker"></i> Ajit Road - Bathinda
+</div>
+<div class="col-md-4 text-center">
+<h2>Working Hours</h2>
+<br><p>Monday-friday<br><br>
+Open from 9am-1pm<br><br>
+Holidays-Closed<br>
+<br>Weekends-closed</p>
+</div>
+</div>
+<div class="col-md-12 text-center">
+<p>Copyright &copy; 2020 Kids Castle. All Rights Reserved</p>
+</div>
+</div>
+
+
+</div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="{% static 'bootstrap-3.3.7-dist/jquery.js' %}"></script>
+<script src="{% static 'bootstrap-3.3.7-dist/js/bootstrap.min.js' %}"></script>
+</html>

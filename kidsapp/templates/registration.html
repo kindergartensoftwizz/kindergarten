@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="row text-center"id="service5">
+<div class="col-md-12">
+<h1 style="font-family:Constantia;text-align-center;font-size:55px;">Student Registration Form</h1>
+<p class="text-center","font-family:Impact;font-size:38px;">Kidz Castel's preschool program helps you with online registration<br>
+</p>
+</div>
+</div>
+<div class="row" style=" padding:30px;">
+<div class="col-md-6 col-md-offset-3">
+
+<form action="/insert2" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+<label>Child's name</label><br>
+<label>Enter Firstname</label>
+<input type="text" name="firstname" placeholder="Firstname" class="form-control"  required />
+<br>
+<label>Enter Lastname</label>
+<input type="text" name="lastname" placeholder="Lastname" class="form-control"  required />
+<br>
+<br>
+<label>Enter email
+</label>
+<input type="email" name="email" placeholder="email"  class="form-control" required />
+<br>
+<br>
+
+<label>Address</label>
+<br>
+
+<textarea name="address" class="form-control">
+</textarea>
+<br>
+<label>
+Course:
+</label>
+<select name="course" class="form-control">
+<option value="">-Select-</option>
+<option value="Play Game">Play Game</option>
+<option value="Language Arts">Language Arts</option>
+<option value="First Grade">First Grade</option>
+<option value="Second Grade">Second Grade</option>
+</select>
+<br>
+<label>Select gender:
+</label><br>
+
+<input type="radio" value="male" name="gender"/> Male<br>
+<input type="radio" value="female" name="gender"/> Female<br>
+<input type="radio" value="other" name="gender"/> Other<br>
+
+<br>
+<label>Select DOB</label>
+<input type="date" class="form-control" name="dob" />
+<br>
+<label>Enter mobile
+</label>
+
+<input type="text" name="mobile" placeholder="mobile" class="form-control" required />
+<br>
+<br>
+<label>Upload pic</label>
+<input type="file" name="pic" class="form-control"/>
+<br>
+
+<br>
+<br><br>
+<input type="submit" class="btn btn-primary" value="Submit" />
+</form>
+</div>
+</div>
+
+
+
+
+{% endblock %}

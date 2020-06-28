@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://t.commonsupport.xyz/bebio/about.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Bebio - Kinder Garten HTML Template | About</title>
+<!-- Stylesheets -->
+<link href="http://t.commonsupport.xyz/bebio/css/bootstrap.css" rel="stylesheet">
+<link href="http://t.commonsupport.xyz/bebio/css/style.css" rel="stylesheet">
+<link href="http://t.commonsupport.xyz/bebio/css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="http://t.commonsupport.xyz/bebio/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="http://t.commonsupport.xyz/bebio/images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader" style="display: none;"></div>
+
+    <!-- Main Header -->
+    <header class="main-header fixed-header">
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="nav-outer clearfix">
+                    <ul class="info-box clearfix">
+                        <li><a href="tel:6668880000">666 888 0000 <span class="fa fa-phone-square"></span></a></li>    <li><a href="mailto:info@bebio.com"><span class="fa fa-envelope"></span>info@bebio.com</a></li>
+                    </ul>
+
+                    <div class="responsive-logo"><a href="http://t.commonsupport.xyz/bebio/index.html"><img src="./50_files/logo.png" alt="" title="Bebio - Kinder Garten HTML Template"></a></div>
+
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-md navbar-light">
+                        <div class="navbar-header">
+                            <!-- Togg le Button -->      
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon flaticon-menu-button"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                            <ul class="navigation clearfix">
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/index.html">Home</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/index.html">Home page 01</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/index-2.html">Home page 02</a></li>
+                                        <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/index.html">Header Styles</a>
+                                            <ul>
+                                                <li><a href="http://t.commonsupport.xyz/bebio/index.html">Header Style One</a></li>
+                                                <li><a href="http://t.commonsupport.xyz/bebio/index-2.html">Header Style Two</a></li>
+                                            </ul>
+                                        <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li class="current"><a href="./50_files/50.JPG">About Us</a></li>
+								<li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/events.html">Events</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/events.html">Events</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/event-detail.html">Event Detail</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/programs.html">Programs</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/numbers-matching.html">Numbers Matching</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/paper-plates-art.html">Paper Plates Art</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/create-cartoon-egg.html">Create Egg Cartoon</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/cooking-fun-cake.html">Cooking Fun Cake</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/super-colors-game.html">Super Colors Game</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/learning-disciplines.html">Learning Disciplines</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+								<li><a href="http://t.commonsupport.xyz/bebio/gallery.html">Gallery</a></li>
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/news.html">Our News</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/news.html">Our News</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/news-single.html">News Single</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li><a href="http://t.commonsupport.xyz/bebio/contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!-- Header Lower -->
+        <div class="header-lower">
+            <div class="auto-container">
+                <div class="outer-box">
+                    <!-- Option Box -->
+                    <div class="option-box">
+                        <ul class="clearfix">
+                           <li class="search-box-btn"><span class="icon fa fa-search"></span></li> 
+                           <li><a href="mailto:info@bebio.com"><span class="fa fa-envelope"></span></a></li>
+                        </ul>
+                    </div>
+
+                    <!--Logo-->
+                    <div class="logo-outer">
+                        <div class="logo"><a href="http://t.commonsupport.xyz/bebio/index.html"><img src="./50_files/logo.png" alt="" title="Bebio - Kinder Garten HTML Template"></a></div>
+                    </div>
+
+                    <ul class="social-icon-colored">
+                        <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header animated fadeInDown">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="http://t.commonsupport.xyz/bebio/index.html" title=""><img src="./50_files/logo.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-collapse show collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/index.html">Home</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/index.html">Home page 01</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/index-2.html">Home page 02</a></li>
+                                        <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/index.html">Header Styles</a>
+                                            <ul>
+                                                <li><a href="http://t.commonsupport.xyz/bebio/index.html">Header Style One</a></li>
+                                                <li><a href="http://t.commonsupport.xyz/bebio/index-2.html">Header Style Two</a></li>
+                                            </ul>
+                                        <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li class="current"><a href="./50_files/50.JPG">About Us</a></li>
+								<li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/events.html">Events</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/events.html">Events</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/event-detail.html">Event Detail</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/programs.html">Programs</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/numbers-matching.html">Numbers Matching</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/paper-plates-art.html">Paper Plates Art</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/create-cartoon-egg.html">Create Egg Cartoon</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/cooking-fun-cake.html">Cooking Fun Cake</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/super-colors-game.html">Super Colors Game</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/learning-disciplines.html">Learning Disciplines</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+								<li><a href="http://t.commonsupport.xyz/bebio/gallery.html">Gallery</a></li>
+                                <li class="dropdown"><a href="http://t.commonsupport.xyz/bebio/news.html">Our News</a>
+                                    <ul>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/news.html">Our News</a></li>
+                                        <li><a href="http://t.commonsupport.xyz/bebio/news-single.html">News Single</a></li>
+                                    </ul>
+                                <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div></li>
+                                <li><a href="http://t.commonsupport.xyz/bebio/contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    </header>
+    <!-- End Main Header -->
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/1.jpg);">
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+                <ul class="bread-crumb clearfix">
+                    <li><a href="http://t.commonsupport.xyz/bebio/index.html">Home</a></li>
+                    <li>Pages</li>
+                    <li>About</li>
+                </ul>
+                <h1>About</h1>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- About Section Three-->
+    <section class="about-section-three">
+        <div class="auto-container">
+            <div class="upper-box">
+                <div class="row">
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInLeft animated" style="visibility: visible; -webkit-animation: fadeInLeft;">
+                        <figure class="image"><img src="./50_files/about-img-3.jpg" alt=""></figure>
+                    </div>
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInRight animated" style="visibility: visible; -webkit-animation: fadeInRight;">
+                        <figure class="image"><img src="./50_files/about-img-4.jpg" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="title-column col-lg-4 col-md-6 col-sm-12">
+                    <div class="sec-title">
+                        <span class="title">About Us</span>
+                        <h2>Since 2002 the best baby care &amp; kindergarten in your town</h2>
+                    </div>
+                </div>
+                <div class="skill-column col-lg-4 col-md-6 col-sm-12">
+                    <!--Skills-->
+                    <div class="skills">
+                        <!--Skill Item-->
+                        <div class="skill-item">
+                            <div class="skill-header clearfix">
+                                <div class="skill-title">Education</div>
+                                <div class="skill-percentage"><div class="count-box counted"><span class="count-text" data-speed="3000" data-stop="98">98</span>%</div></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner"><div class="bar progress-line" data-width="98" style="width: 98%;"></div></div>
+                            </div>
+                        </div>
+                        <!--Skill Item-->
+                        <div class="skill-item">
+                            <div class="skill-header clearfix">
+                                <div class="skill-title">Grooming</div>
+                                <div class="skill-percentage"><div class="count-box counted"><span class="count-text" data-speed="3000" data-stop="88">88</span>%</div></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner"><div class="bar progress-line" data-width="88" style="width: 88%;"></div></div>
+                            </div>
+                        </div>
+                        <!--Skill Item-->
+                        <div class="skill-item">
+                            <div class="skill-header clearfix">
+                                <div class="skill-title">Music &amp; Fun</div>
+                                <div class="skill-percentage"><div class="count-box counted"><span class="count-text" data-speed="3000" data-stop="78">78</span>%</div></div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner"><div class="bar progress-line" data-width="78" style="width: 78%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-column col-lg-4 col-md-12 col-sm-12">
+                    <div class="text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable need to be sure there isn't anything embarrassing hidden in the middle of text. All the lorem ipsum generators on the Internet.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Three -->
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="title">Our Testimonials</div>
+                <h2>What Parents Say</h2>
+            </div>
+
+            <div class="testimonial-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                <!-- Testimonial Block -->
+                
+
+                <!-- Testimonial Block -->
+                
+
+                <!-- Testimonial Block -->
+                
+
+                <!-- Testimonial Block -->
+                
+
+                <!-- Testimonial Block -->
+                
+
+                <!-- Testimonial Block -->
+                
+            <div class="owl-stage-outer"><div class="owl-stage" style="-webkit-transform: translate3d(-4200px, 0px, 0px); transition: 0.5s; -webkit-transition: 0.5s; width: 7200px;"><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item active" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item active" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block style-two">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-2.jpg" alt=""></div>
+                            <h6 class="name">Kevin Hardson</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 570px; margin-right: 30px;"><div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="./50_files/thumb-1.jpg" alt=""></div>
+                            <h6 class="name">Christine Rose</h6>
+                            <span class="designation">Mother of 2 kids</span>
+                        </div>
+                    </div>
+                </div></div></div></div><div class="owl-nav"><div class="owl-prev"><span class="flaticon-next-1"></span></div><div class="owl-next"><span class="flaticon-next-1"></span></div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div></div></div>
+        </div>
+    </section>
+    <!--End Testimonial Section -->
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="title">Expert People</div>
+                <h2>Our Teachers</h2>
+            </div>
+
+            <div class="row">
+                <!-- Team Block -->
+                <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" style="visibility: visible; -webkit-animation: fadeInUp;">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="./50_files/team-1.jpg" alt=""></figure>
+                            <div class="overlay-box">
+                                <ul class="social-icon-colored">
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="caption-box">
+                            <h6 class="name"><a href="http://t.commonsupport.xyz/bebio/about.html#">Jesscia Brown</a></h6>
+                            <span class="designation">Teacher</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block -->
+                <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="400ms" style="visibility: visible; -webkit-animation: fadeInUp 400ms;">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="./50_files/team-2.jpg" alt=""></figure>
+                            <div class="overlay-box">
+                                <ul class="social-icon-colored">
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="caption-box">
+                            <h6 class="name"><a href="http://t.commonsupport.xyz/bebio/about.html#">Sarah Albert</a></h6>
+                            <span class="designation">Teacher</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block -->
+                <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="800ms" style="visibility: visible; -webkit-animation: fadeInUp 800ms;">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="./50_files/team-3.jpg" alt=""></figure>
+                            <div class="overlay-box">
+                                <ul class="social-icon-colored">
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="caption-box">
+                            <h6 class="name"><a href="http://t.commonsupport.xyz/bebio/about.html#">Christine Eve</a></h6>
+                            <span class="designation">Teacher</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block -->
+                <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="1200ms" style="visibility: visible; -webkit-animation: fadeInUp 1200ms;">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="./50_files/team-4.jpg" alt=""></figure>
+                            <div class="overlay-box">
+                                <ul class="social-icon-colored">
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="caption-box">
+                            <h6 class="name"><a href="http://t.commonsupport.xyz/bebio/about.html#">Susan Hardson</a></h6>
+                            <span class="designation">Teacher</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Team Section -->
+
+   <!-- Call To Action -->
+    <section class="call-to-action">
+        <div class="parallax-scene parallax-scene-1 anim-icons" style="-webkit-transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; pointer-events: none;">
+            <span data-depth="0.50" class="parallax-layer icon icon-balloon-3" style="-webkit-transform: translate3d(-37.3px, -18px, 0); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"></span>
+            <span data-depth="0.30" class="parallax-layer icon icon-star-6" style="-webkit-transform: translate3d(-22.4px, -10.8px, 0); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></span>
+            <span data-depth="0.40" class="parallax-layer icon icon-ball" style="-webkit-transform: translate3d(-29.9px, -14.4px, 0); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></span>
+            <span data-depth="0.20" class="parallax-layer icon icon-idea-2" style="-webkit-transform: translate3d(-14.9px, -7.2px, 0); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></span>
+            <span data-depth="0.50" class="parallax-layer icon icon-balloon-4" style="-webkit-transform: translate3d(-37.3px, -18px, 0); -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></span>
+        </div>
+
+        <div class="auto-container">
+            <div class="content-box">
+                <span class="title">Join Our New Session</span>    
+                <h2>Call To Enrol Your Child <span>666 8888 000</span></h2>
+                <div class="btn-box"><a href="http://t.commonsupport.xyz/bebio/programs.html" class="theme-btn btn-style-two">View All Programs</a></div>
+            </div>
+        </div>
+    </section>
+    <!--End Call To Action -->
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="title">Parents Loves Us</span>
+                <h2>Why Choose Us</h2>
+            </div>
+
+            <div class="services-tabs tabs-box">
+                <!--Tab Btns-->
+                <ul class="tab-btns tab-buttons clearfix">
+                    <li data-tab="#tab-1" class="tab-btn">Study with Grooming</li>
+                    <li data-tab="#tab-2" class="tab-btn active-btn">Qualified Teachers</li>
+                    <li data-tab="#tab-3" class="tab-btn">Good Results</li>
+                </ul>
+                
+                <!--Tabs Container-->
+                <div class="tabs-content">
+                    <!-- Tab -->
+                    <div class="tab" id="tab-1">
+                        <div class="service-tabs">
+                            <div class="row">
+                                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="image-box">
+                                            <figure class="image"><img src="./50_files/image-3.jpg" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing vestibu lum at eros. Nulla vitae elit libero, a pharetra augue.</div>
+                                        <ul class="list-style-two">
+                                            <li>Supporting the Child’s Personality</li>
+                                            <li>Indoor/Outdoor Games for Little Kids</li>
+                                            <li>Professional &amp; Qualified Teachers</li>
+                                            <li>Best Learning School for Kids</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab / Active Tab -->
+                    <div class="tab active-tab" id="tab-2">
+                        <div class="service-tabs">
+                            <div class="row">
+                                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="image-box">
+                                            <figure class="image"><img src="./50_files/image-3.jpg" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing vestibu lum at eros. Nulla vitae elit libero, a pharetra augue.</div>
+                                        <ul class="list-style-two">
+                                            <li>Supporting the Child’s Personality</li>
+                                            <li>Indoor/Outdoor Games for Little Kids</li>
+                                            <li>Professional &amp; Qualified Teachers</li>
+                                            <li>Best Learning School for Kids</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Tab-->
+                    <div class="tab" id="tab-3">
+                        <div class="service-tabs">
+                            <div class="row">
+                                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="image-box">
+                                            <figure class="image"><img src="./50_files/image-3.jpg" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                                    <div class="inner-column">
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing vestibu lum at eros. Nulla vitae elit libero, a pharetra augue.</div>
+                                        <ul class="list-style-two">
+                                            <li>Supporting the Child’s Personality</li>
+                                            <li>Indoor/Outdoor Games for Little Kids</li>
+                                            <li>Professional &amp; Qualified Teachers</li>
+                                            <li>Best Learning School for Kids</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Why Choose Us -->
+
+    <!--Main Footer-->
+    <footer class="main-footer">
+        <div class="anim-icons">
+            <span class="icon icon-sparrow wow zoomIn animated" data-wow-delay="400ms" style="visibility: visible; -webkit-animation: zoomIn 400ms;"></span>
+            <span class="icon icon-rainbow-2 wow zoomIn animated" data-wow-delay="800ms" style="visibility: visible; -webkit-animation: zoomIn 800ms;"></span>
+            <span class="icon icon-star-3"></span>
+            <span class="icon icon-star-3 two"></span>
+            <span class="icon icon-sun"></span>
+            <span class="icon icon-plane wow zoomIn animated" data-wow-delay="1200ms" style="visibility: visible; -webkit-animation: zoomIn 1200ms;"></span>
+        </div>
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top scroll-to-target" data-target="html" style="display: block;"><span class="icon icon-arrow-up"></span></div>
+
+        <!--footer upper-->
+        <div class="footer-upper">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Big Column-->
+                    <div class="big-column col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                        
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+                                    <div class="logo">
+                                        <a href="http://t.commonsupport.xyz/bebio/index.html"><img src="./50_files/footer-logo.png" alt=""></a>
+                                    </div>
+                                    <div class="text">Etiam rhoncus sit amet adip scing sed ipsum. Lorem ipsum dolor sit amet adipiscing sem neque.</div>
+
+                                </div>
+                            </div>
+                            
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget contact-widget">
+                                    <h4 class="widget-title">Contact</h4>
+                                    <div class="widget-content">
+                                        <ul class="contact-info">    
+                                            <li><a href="tel:6668880000"><span class="fa fa-phone-square"></span>666 888 0000</a></li>
+                                            <li><a href="mailto:info@bebio.com"><span class="fa fa-envelope"></span>info@bebio.com</a></li>
+                                            <li><span class="fa fa-map"></span> 66 top broklyn street new york</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Big Column-->
+                    <div class="big-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-3 col-lg-3 col-md-6 col-sm-4">
+                                <div class="footer-widget links-widget">
+                                    <h4 class="widget-title">Links</h4>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">About</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Contact</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Our Gallery</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Programs</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Events</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-widget activites-widget">
+                                    <h4 class="widget-title">Activities</h4>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Table/Floor Toys</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Outdoor Games</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Sand Play</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Play Dough</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Building Blocks</a></li>
+                                            <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Water Play</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                                <div class="footer-widget newsletter-widget">
+                                    <h4 class="widget-title">Newsletter</h4>
+                                    <div class="newsletter-form">
+                                        <form method="post" action="http://t.commonsupport.xyz/bebio/contact.html">
+                                            <div class="form-group">
+                                                <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
+                                                <button type="submit" class="theme-btn btn-style-one">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <ul class="social-icon-colored">
+                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="http://t.commonsupport.xyz/bebio/about.html#"><span class="fab fa-youtube"></span></a></li>
+                </ul>
+                <div class="copyright"> Copyrights © 2019 Bebio - Kinder Garten HTML Template</div>
+            </div>
+        </div>
+    </footer>
+    <!--End Main Footer-->
+
+</div>
+<!--End pagewrapper-->
+
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+    <div class="close-search theme-btn"><span class="fa fa-times"></span></div>
+    <div class="popup-inner">
+        <div class="overlay-layer"></div>
+        <div class="search-form">
+            <form method="post" action="http://t.commonsupport.xyz/bebio/index.html">
+                <div class="form-group">
+                    <fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required="">
+                        <input type="submit" value="Search Now!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Recent Search Keywords</h3>
+            <ul class="recent-searches">
+                <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Business</a></li>
+                <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Web Development</a></li>
+                <li><a href="http://t.commonsupport.xyz/bebio/about.html#">SEO</a></li>
+                <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Logistics</a></li>
+                <li><a href="http://t.commonsupport.xyz/bebio/about.html#">Freedom</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+
+<script src="./50_files/jquery.js"></script>
+<script src="./50_files/popper.min.js"></script>
+<script src="./50_files/bootstrap.min.js"></script>
+<script src="./50_files/jquery-ui.js"></script>
+<script src="./50_files/jquery.fancybox.js"></script>
+<script src="./50_files/owl.js"></script>
+<script src="./50_files/wow.js"></script>
+<script src="./50_files/appear.js"></script>
+<script src="./50_files/parallax.min.js"></script>
+<script src="./50_files/script.js"></script>
+
+</body></html>

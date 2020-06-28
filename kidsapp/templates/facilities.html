@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+
+<div class="row text-center"id="service2">
+<div class="col-md-12">
+<h1 style="font-family:Constantia;text-align-center;font-size:55px;">Facilities</h1>
+<p class="text-center","font-family:Impact;font-size:38px;">Kidz Castel's preschool program has well equipped range of facilities<br>
+</p>
+</div>
+</div>
+<div class="row" style=" padding:30px;">
+
+{% for facility in object_list %}
+<div class="col-md-6">
+<div class="col-md-12 facilities">
+<img src="/media/{{ facility.pic }}" height="300" width="100%" >
+<div class="col-md-12 facilitydesc">
+<h3>{{ facility.title }}</h3>
+<p>{{ facility.description }}</p>
+</div>
+</div>
+</div>
+{% endfor %}
+
+</div>
+
+
+
+
+{% endblock %}

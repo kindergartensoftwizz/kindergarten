@@ -1,0 +1,290 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+<div class="row">
+<div class="col-md-12">
+<img src="{% static '13.jpg' %}"width="100%" style="height:350px;" />
+</div>
+</div>
+<div class="row"id="event1">
+<div class="col-md-10 col-md-offset-1">
+{% for event in object_list %}
+<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="/media/{{ event.pic }}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">{{ event.edate }}</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">{{ event.title }}</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">{{ event.etime }}</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">{{ event.location }}</span></p>
+</div>
+</div>
+</div>
+{% endfor %}
+
+<!--<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="{% static 'event-2.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">10 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="{% static 'event-3.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">15 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="{% static 'event-4.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">20 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="{% static 'event-5.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">25 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="col-md-12 events">
+<div class="col-md-5">
+
+<img src="{% static 'event-6.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">30 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!--<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-2.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">10 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-3.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">18 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-4.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">27 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-5.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">20 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-6.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">30 May 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="col-md-5">
+
+<img src="{% static 'event-5.jpg' %}"width="100%" style="height:280px;" />
+</div>
+<br>
+<div class="col-md-7">
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#e4a40f;">20 March 2019</span></h2>
+<h2 style="font-family:Elephant;font-size:20px;"><span style="color:#035392;">Work Together in<br>
+Summer</span></h2><br>
+<br>
+<p style="font-family:Elephant;"><span style="color:#035392;">Time:</span>&nbsp;<span style="color:#f51dd1">9:00-11:00</span>
+&nbsp;&nbsp;&nbsp;<span style="color:#035392;"> Location:</span>&nbsp;<span style="color:#f51dd1">Clifton</span></p>
+</div>
+</div>-->
+</div>
+</div>
+<div class="row text-center"id="event2">
+<div class="col-md-4" style="padding:20px">
+<img src="{% static 'mission-1.jpg' %}" width="100%" style="height:320px;" />
+ <div class="col-md-12 blog5">
+<br><h1 style="font-size:25px;font-family:Elephant;"><span style="color:#035392;">Our Mission</span></h1><br>
+<p>Kids Castle provides a nurturing and English community where a love for learning can be fostered and developed.
+   </p>
+  </div>
+  </div>
+  
+  
+ <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'mission-2.jpg' %}" width="100%" style="height:320px;" />
+ <div class="col-md-12 blog5">
+<br><h1 style="font-size:25px;font-family:Elephant;"><span style="color:#035392;">Our Vision</span></h1><br>
+
+   <p>
+   Kids Castle aims to become a leader in innovative educational practices and inspire others to become avenues for a holistic development of children.
+   </p>
+  </div>
+  </div>
+  
+	
+   <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'mission-3.jpg' %}" width="100%" style="height:320px;" />
+ <div class="col-md-12 blog5">
+<br><h1 style="font-size:25px;font-family:Elephant;"><span style="color:#035392;">Our Philosophy</span></h1><br>
+<p>
+At Kids Castle, young children discover themselves as creative, independent learners in a diverse, supportive environment.
+</p>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

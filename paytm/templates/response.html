@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %} 
+<div class="row text-center"id="service2">
+<div class="col-md-12">
+<h1 style="font-family:Constantia;text-align-center;font-size:55px;">Thank You</h1>
+<p class="text-center","font-family:Impact;font-size:38px;">Your registration is complete<br>
+</p>
+</div>
+</div>
+    <div class="container">
+        <div class="row" style="margin-top: 6%; display:none;">
+
+
+{% for key,value in paytm.items %}
+    {{key}} =  {{value}} <br>
+{% endfor %}
+
+</div>
+</div>
+
+{% endblock %}

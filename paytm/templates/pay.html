@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %} 
+<div class="row text-center"id="service5">
+<div class="col-md-12">
+<h1 style="font-family:Constantia;text-align-center;font-size:55px;">PAY NOW</h1>
+<p class="text-center","font-family:Impact;font-size:38px;">Pay your registration fees<br>
+</p>
+</div>
+</div>
+    <div class="container">
+        <div class="row" style="margin-top: 6%;">
+    
+    {% if error %}
+    <h3>{{ error }}</h3>
+    {% endif %}
+    <form method="post" action='/paytm/payment/'>
+        {% csrf_token %}
+		<div class="col-md-4 col-md-offset-4" style="padding:30px;">
+                <div class="pages">
+                    Your Registration Fees
+                </div>
+                
+
+         
+        <input type="text" name="amount" value="2000" readonly class="form-control">
+		<br>
+        <input type="submit" name="submit" value="PAY NOW" class="btn btn-success" required>
+		<br>
+		</div>
+    </form>
+</div>
+</div>
+
+{% endblock %}

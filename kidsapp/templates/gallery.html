@@ -1,0 +1,65 @@
+ qw {% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+
+<div class="row">
+<div class="col-md-12">
+<img src="{% static '13.jpg' %}"width="100%" style="height:400px;" />
+</div>
+</div>
+<div class="row text-center"id="gallery">
+<h1 style="font-family:Elephant;font-size:50px;"><span style="color:#f5b70f;">Our Photo Gallery</h1>
+</div>
+<div class="row img-fluid img-d3" id="galleryimg" >
+
+<div class="col-md-4">
+
+<img src="{% static 'gallery11.jpg' %}"  /> 
+
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery2.jpg' %}"  />
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery3.jpg' %}"  />
+</div>
+
+<div class="col-md-4">
+
+<img src="{% static 'gallery4.jpg' %}"  />
+
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery5.jpg' %}"  />
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery6.jpg' %}"  />
+</div>
+
+<div class="col-md-4">
+
+<img src="{% static 'gallery7.jpg' %}"  />
+
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery8.jpg' %}"  />
+</div>
+<div class="col-md-4">
+<img src="{% static 'gallery9.jpg' %}"  />
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
